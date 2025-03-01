@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    color: white;
+    padding: 0;
+    box-sizing:border-box ;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+    /* background-color: black; */
+}
+.main{
+    height: auto;
+    width: 100%;
+    background-color:black;
+    position: relative;
+}
+h1{
+    font-size: 7vw;
+    font-family: 'Georgia', serif, 'Trebuchet MS', sans-serif;
+    position: relative;
+    z-index: 1;
+    mix-blend-mode:  difference;
+}
+.Container{
+    border-bottom: 3px solid white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: flex-start;
+
+}
+img{
+    height: 170px;
+    width: 170px;
+    border-radius: 30%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    /* transform: translate(-50%,-50%); */
+    opacity: 0;
+    transform: all linear 0.9s;
+}
